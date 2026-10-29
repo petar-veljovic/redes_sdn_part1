@@ -1,0 +1,179 @@
+loading app topo_discover.py
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app topo_discover.py of TopoDiscover
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.controller.ofp_handler of OFPHandler
+Switches mapeados atualmente: [1]
+Switches mapeados atualmente: [1, 2]
+Total de enlaces descobertos: 1 (direcionais)
+Total de enlaces descobertos: 2 (direcionais)
+Switches mapeados atualmente: [1, 2, 3]
+Switches mapeados atualmente: [1, 2, 3, 4]
+Total de enlaces descobertos: 5 (direcionais)
+Total de enlaces descobertos: 5 (direcionais)
+Total de enlaces descobertos: 5 (direcionais)
+Total de enlaces descobertos: 8 (direcionais)
+Total de enlaces descobertos: 8 (direcionais)
+Total de enlaces descobertos: 8 (direcionais)
+Switches mapeados atualmente: [1, 2, 3, 4, 5]
+Total de enlaces descobertos: 10 (direcionais)
+Total de enlaces descobertos: 10 (direcionais)
+Total de enlaces descobertos: 12 (direcionais)
+Total de enlaces descobertos: 12 (direcionais)
+Switches mapeados atualmente: [1, 2, 3, 4, 5, 6]
+Total de enlaces descobertos: 13 (direcionais)
+Total de enlaces descobertos: 15 (direcionais)
+Total de enlaces descobertos: 15 (direcionais)
+Total de enlaces descobertos: 16 (direcionais)
+ARP recebido do IP 10.0.0.1, MAC 00:00:00:00:00:01 no Switch 1, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (1):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+==============================================================
+ARP recebido do IP 10.0.0.2, MAC 00:00:00:00:00:02 no Switch 2, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (2):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+  host 10.0.0.2   MAC 00:00:00:00:00:02  -> s2 (porta 1)
+==============================================================
+ARP recebido do IP 10.0.0.3, MAC 00:00:00:00:00:03 no Switch 3, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (3):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+  host 10.0.0.2   MAC 00:00:00:00:00:02  -> s2 (porta 1)
+  host 10.0.0.3   MAC 00:00:00:00:00:03  -> s3 (porta 1)
+==============================================================
+ARP recebido do IP 10.0.0.4, MAC 00:00:00:00:00:04 no Switch 4, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (4):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+  host 10.0.0.2   MAC 00:00:00:00:00:02  -> s2 (porta 1)
+  host 10.0.0.3   MAC 00:00:00:00:00:03  -> s3 (porta 1)
+  host 10.0.0.4   MAC 00:00:00:00:00:04  -> s4 (porta 1)
+==============================================================
+ARP recebido do IP 10.0.0.5, MAC 00:00:00:00:00:05 no Switch 5, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (5):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+  host 10.0.0.2   MAC 00:00:00:00:00:02  -> s2 (porta 1)
+  host 10.0.0.3   MAC 00:00:00:00:00:03  -> s3 (porta 1)
+  host 10.0.0.4   MAC 00:00:00:00:00:04  -> s4 (porta 1)
+  host 10.0.0.5   MAC 00:00:00:00:00:05  -> s5 (porta 1)
+==============================================================
+ARP recebido do IP 10.0.0.6, MAC 00:00:00:00:00:06 no Switch 6, porta 1
+==============================================================
+TOPOLOGIA COMPLETA MAPEADA
+==============================================================
+Switches ativos (6): s1, s2, s3, s4, s5, s6
+--------------------------------------------------------------
+Enlaces entre switches (8):
+  s1 (porta 2) <--> s2 (porta 2)
+  s1 (porta 3) <--> s4 (porta 2)
+  s1 (porta 4) <--> s5 (porta 2)
+  s2 (porta 3) <--> s4 (porta 3)
+  s2 (porta 4) <--> s6 (porta 2)
+  s3 (porta 2) <--> s4 (porta 4)
+  s3 (porta 3) <--> s5 (porta 3)
+  s4 (porta 5) <--> s6 (porta 3)
+--------------------------------------------------------------
+Hosts conectados (6):
+  host 10.0.0.1   MAC 00:00:00:00:00:01  -> s1 (porta 1)
+  host 10.0.0.2   MAC 00:00:00:00:00:02  -> s2 (porta 1)
+  host 10.0.0.3   MAC 00:00:00:00:00:03  -> s3 (porta 1)
+  host 10.0.0.4   MAC 00:00:00:00:00:04  -> s4 (porta 1)
+  host 10.0.0.5   MAC 00:00:00:00:00:05  -> s5 (porta 1)
+  host 10.0.0.6   MAC 00:00:00:00:00:06  -> s6 (porta 1)
+==============================================================
+Enlace removido. Total de enlaces: 12
+Enlace removido. Total de enlaces: 12
+Enlace removido. Total de enlaces: 12
+Enlace removido. Total de enlaces: 12
+Enlace removido. Total de enlaces: 10
+Enlace removido. Total de enlaces: 8
+Enlace removido. Total de enlaces: 8
+Enlace removido. Total de enlaces: 8
+Enlace removido. Total de enlaces: 4
+Enlace removido. Total de enlaces: 4
+Enlace removido. Total de enlaces: 4
+Enlace removido. Total de enlaces: 4
+Enlace removido. Total de enlaces: 0
+Enlace removido. Total de enlaces: 0
+Enlace removido. Total de enlaces: 0
+Enlace removido. Total de enlaces: 0
+Switch removido. Switches atuais: [1, 2, 3, 4, 5]
+Switch removido. Switches atuais: [1, 2, 3, 5]
+Switch removido. Switches atuais: [2, 3, 5]
+Switch removido. Switches atuais: [2, 5]
+Switch removido. Switches atuais: [2]
+Switch removido. Switches atuais: []
